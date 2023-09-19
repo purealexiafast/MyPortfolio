@@ -1,13 +1,40 @@
 html {
     height: 200vh;
+
 }
 
-#header {}
+body {
+    background: linear-gradient(to left top, rgb(105, 107, 109), rgb(240, 240, 240));
+
+}
+
+/* Header */
+
+h1 {
+
+    font-size: 300%;
+}
+
+
+#headerTitles {
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+}
+
+#header {
+    position: fixed;
+    top: 10px;
+    display: flex;
+    gap: 50px;
+    font-family: 'Major Mono Display', monospace;
+    margin-left: 50px;
+
+}
 
 #profileImg {
     border-radius: 50%;
     width: auto;
-    height: 200px;
-    position: fixed;
-    top: 10px;
+    height: 80px;
+    margin-top: 20px;
 }
