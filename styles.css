@@ -1,0 +1,13 @@
+html {
+    height: 200vh;
+}
+
+#header {}
+
+#profileImg {
+    border-radius: 50%;
+    width: auto;
+    height: 200px;
+    position: fixed;
+    top: 10px;
+}
